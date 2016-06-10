@@ -1,0 +1,33 @@
+body{
+		background-color: blue;
+	}
+
+h1{
+	color: orange;
+	text-decoration: underline;
+}
+img{
+	border: 1px solid black;
+}
+.row{
+	text-align: center;
+}
+.container{
+	text-align: center;
+	margin: 0 auto;
+}
+.texto{
+	text-align: left;
+	text-decoration: white;
+	font-family: 'Arial';
+	display: inline-block;
+}
+.photo{
+	display: inline-block;
+	width: 40%;
+	text-align: center;
+}
+.photo img{
+	width: 200px;
+	height: 200px;
+}

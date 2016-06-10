@@ -1,0 +1,78 @@
+body{
+	
+	
+	}
+
+h1{
+	/*;*/
+	color: white;
+	text-decoration: bold;
+	text-align: center;
+	line-height: 2em;
+}
+.container{
+	background-color: #303030;
+	width: 800px;
+	height: 400px;
+}
+	
+
+.tite{
+	margin: 0 auto;
+	background-image: url("Recursos/landscape.jpg");
+	background-position: left;
+	height: 100px;
+	width: 98%;
+	display: inline-block;
+	background-repeat: no-repeat;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+
+
+.row{
+	margin-top: 50px; 
+	width: 100%;
+}
+.texto{
+	text-align: left;
+	font-family: 'Arial';
+	display: inline-block;
+	color: white;
+	width: 65%;
+	border-style: solid;
+	border-color: white;
+	border-radius: 15px;
+	margin-left: 2%;
+}
+.photo{
+	display: inline-block;
+	width: 28%;
+	text-align: center;
+	float: right;
+
+}
+.photo img{
+
+	width: 150px;
+	height: 150px;
+	
+}
+.aas{
+	color: white;
+	text-decoration: bold;
+}
+
+.sss{
+	text-height: 1em;
+	/*height: 40px;*/
+	text-align: center;
+	background-color: white;
+	border-style: solid;
+	border-color: #303030;
+	border-width: 10px;
+	/*margin-top: 200px;*/
+}
+.lil{}

@@ -1,0 +1,60 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
+	<title>documento</title>
+	<style>
+		@font-face{
+			font-family: "Covered By Your Grace";
+		}
+		h1{
+			font-family: "Covered By Your Grace", Fallback, sans-serif;
+		}
+		input{
+			text-align: right;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Calculadora</h1>
+		<div class="row">
+			<div class="col-sm-12">
+				<input class="input"></input>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="row">
+				<div class="col-sm-1"><button type="button" class="numero" id="7">7</button></div>
+				<div class="col-sm-1"><button type="button" class="numero" id="8">8</button></div>
+				<div class="col-sm-1"><button type="button" class="numero" id="9">9</button></div>
+				<div class="col-sm-1"><button type="button" data-operacion="dividir" class="operacion" id="barra">/</button></div>
+			</div>
+			<div class="row">
+				<div class="col-sm-1"><button type="button" class="numero" id="4">4</button></div>
+				<div class="col-sm-1"><button type="button" class="numero" id="5">5</button></div>
+				<div class="col-sm-1"><button type="button" class="numero" id="6">6</button></div>
+				<div class="col-sm-1"><button type="button" data-operacion="multi" class="operacion" id="por">*</button></div>
+			</div>
+			<div class="row">
+				<div class="col-sm-1"><button type="button" class="numero" id="1">1</button></div>
+				<div class="col-sm-1"><button type="button" class="numero" id="2">2</button></div>
+				<div class="col-sm-1"><button type="button" class="numero" id="3">3</button></div>
+				<div class="col-sm-1"><button type="button" data-operacion="restar" class="operacion" id="menos">-</button></div>
+			</div>
+			<div class="row">
+				<div class="col-sm-1"><button type="button" class="numero" id="0">0</button></div>
+				<div class="col-sm-1"><button type="button" data-operacion="igual" class="operacion" id="igual">=</button></div>
+				<div class="col-sm-1"><button type="button" data-operacion="clear" class="operacion" id="C">C</button></div>
+				<div class="col-sm-1"><button type="button" data-operacion="sumar" class="operacion" id="mas">+</button></div>
+			</div>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="js/jquery-2.2.3.js"></script>
+	<script type="text/javascript" src="js/calculadora.js"></script>
+	<!--la logica del formulario-->
+</body>
+</html>

@@ -1,0 +1,45 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<title>documento</title>
+	<style>
+		.form-group .help-block{
+			display: none;
+		}
+		
+		.form-group.has-error.required .help-block.required{
+			display: block;
+		}
+		
+		.form-group.has-error.invalid .help-block.invalid{
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<form action="/pepe">
+		<div class="form-group">
+			<label class="control-label" for="inputWarning">Usuario</label>
+			<input type="text" class="form-control" id="inputWarning" name="usuario" placeholder="nombre"></input>
+			<span class="help-block required">User Required</span>
+			<span class="help-block invalid">User Invalid</span>
+		</div>
+		<div class="form-group">
+			<label class="control-label" for="inputWarning2">Email</label>
+			<input type="email" class="email form-control" id="inputWarning2" name="email" placeholder="Email"></input>
+			<span class="help-block required">Email Required</span>
+			<span class="help-block invalid">Email Invalid</span>
+		</div>
+		<div class="form-group">
+			<label class="control-label" for="inputWarning1">Contraseña</label>
+			<input type="password" class="form-control" id="inputWarning1" name="contra" placeholder="password"></input>
+			<span class="help-block required">Password is required</span>
+			<input type="submit" value="Enviar"></input>
+		</div>
+	</form>
+	<script type="text/javascript" src="js/jquery-2.2.3.js"></script>
+	<script type="text/javascript" src="js/form.js"></script>
+	<!--la logica del formulario-->
+</body>
+</html>

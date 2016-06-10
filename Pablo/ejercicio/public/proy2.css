@@ -1,0 +1,70 @@
+body{
+	background-image: url("Imagenes/back.jpg");
+	background-position: center;
+	
+	
+}
+.cuerpo{
+	max-width: 100%;
+
+
+}
+.container{
+	
+	width: 100%;
+	/*display: block;*/
+	background-color: rgba(255,255,255,0.1);
+
+
+
+	
+}
+.filla{
+
+	width: 100%;
+	display: inline-block;
+
+	
+	
+
+}
+.columna{
+	float: right;
+	/*display: inline-block;*/
+	width: 175px;
+
+}
+.columna ul{
+	/*display: inline;*/
+	/*padding: 5px 5px;*/
+	/*text-align: right;*/
+}
+.column{
+	/*float: left;*/	
+	/*display: inline-block;*/
+	/*width: 20%;*/
+
+}
+
+
+#menu li{
+	/*display: inline;
+	float: right;*/
+
+}
+#menu li a{
+	
+	text-decoration: none;
+}
+#menu li a:link{
+	color:black;
+}
+#menu li a:visited{
+	color: #ffffff;
+}
+#menu li a:hover{
+	color: orange;
+}
+#menu li a:active{
+	color:yellow;
+}

@@ -1,0 +1,65 @@
+*{
+	box-sizing: border-box; 
+	display: block;
+	padding: 1px 1px;
+}
+*[class^="col"]{
+	float: left;
+
+}
+
+
+.contain{
+	text-align: center;
+	max-width: 100%;
+	display: block;
+	float: left;
+}
+.row{
+
+	max-width: 100%;
+	float: left;
+	display: block;
+}
+.row img{
+	max-width: 100%;
+	float: left;
+	display: block;
+	display: inline-block;
+}
+.colm{
+	text-align: center;
+	max-width: 50%;
+	display: inline-block;
+	display: block;
+	float: left;
+	height: 600px;
+}
+.colm img{
+	height: 619px;
+}
+
+
+
+.colum{
+	text-align: center;
+	max-width: 25%;
+	float: left;
+	display: inline-block;
+	display: block;
+}
+
+.fila{
+	float: left;
+	text-align: center;
+	display: inline-block;
+	display: block;
+}
+.fila img{
+	max-width: 100%;
+	float: left;
+	display: inline-block;
+	display: block;
+	height: 308px;
+}
+

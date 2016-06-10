@@ -1,0 +1,71 @@
+body{
+
+}
+.contain{
+	margin-top: 60px;
+	margin-left: 40px;
+	max-width: 100%;
+
+}
+.row{
+	max-width: 100%;
+}
+.col{
+	max-width: 100%;
+
+}
+.col10{ 
+	width: 10%;
+	display: block;
+	float: left;
+}
+.col90{
+	width: 89%;
+	display: block;
+	float: left;
+}
+.col66{
+	width: 66%;
+	display: block;
+	float: left;
+
+}
+.col33{
+	width: 32%;
+	display: block;
+	float: left;
+}
+.col33 img{
+	max-width: 32%;
+}
+h1 a:link{
+	color:black;
+	text-decoration: none;
+}
+h1 a:visited{
+	color: #802030;
+}
+h1 a:hover{
+	color: orange;
+	text-decoration: underline;
+}
+h1 a:active{
+	color:yellow;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+p a:link{
+	text-decoration: none;
+}
+p a:visited{
+	color: red;
+}
+p a:hover{
+	text-decoration: underline;
+}
+p a:hover{
+	color:	yellow;
+}

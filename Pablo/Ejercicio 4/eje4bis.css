@@ -1,0 +1,112 @@
+body{}
+
+.uno{
+	max-width: 100%;
+	background-image: url("img/ad1.png");
+}
+
+.dos{
+	max-width: 100%;
+	background-image: url("img/ad2.jpg");
+}
+
+.tres{
+	max-width: 100%;
+	background-image: url("img/ad3.png");
+}
+
+@media(max-width: 787px){
+	.fila{
+		height: 200px;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
+
+@media(min-width: 788px) and (max-width: 1000px){
+	p{font-style: oblique;
+		font-family: "Arial", Arial, serif;
+	}
+	.fila{
+		height: 300px;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+}
+@media(min-width: 1001px){
+	.fila{
+		height: 400px;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
+
+.contain{
+	margin-top: 60px;
+	margin-left: 40px;
+	max-width: 100%;
+
+}
+.row{
+	max-width: 100%;
+}
+.col{
+	max-width: 100%;
+
+}
+.col10{ 
+	width: 10%;
+	display: block;
+	float: left;
+}
+.col90{
+	width: 89%;
+	display: block;
+	float: left;
+}
+.col66{
+	width: 66%;
+	display: block;
+	float: left;
+
+}
+.col33{
+	width: 32%;
+	display: block;
+	float: left;
+}
+.col33 img{
+	max-width: 32%;
+}
+h1 a:link{
+	color:black;
+	text-decoration: none;
+}
+h1 a:visited{
+	color: #802030;
+}
+h1 a:hover{
+	color: orange;
+	text-decoration: underline;
+}
+h1 a:active{
+	color:yellow;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+p a:link{
+	text-decoration: none;
+}
+p a:visited{
+	color: red;
+}
+p a:hover{
+	text-decoration: underline;
+}
+p a:hover{
+	color:	yellow;
+}
