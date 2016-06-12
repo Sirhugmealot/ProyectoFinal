@@ -1,0 +1,9 @@
+@font-face{
+	font-family: PressStart2P;
+	src: url('fonts/press_start_2p/PressStart2P.ttf');
+}
+
+h1{
+	font-family: PressStart2P;
+	text-align: center;
+}
