@@ -154,4 +154,17 @@ a.dropdown-toggle:visited{
 	overflow: auto;
 }
 
+/* Education */
 
+h1{
+	text-align: center;
+}
+
+button{
+	float: right;
+	margin-top: 10px;
+}
+
+#textAreaEdit{
+	margin-top: 10px;
+}
